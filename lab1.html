@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form>
+    <h1 align="center">KIIT Central Library</h1>
+    <marquee bgcolor="green">Student Registration Form</marquee>
+    <fieldset>
+        <legend align="center"><b>  
+            Student Details
+        </b>
+        </legend>
+    <label><b>First Name:</b></label>
+    <input type="text" name="name" value="">
+    <label><b>Second Name:</b></label>
+    <input type="text" name="name">
+    <label><b>Last Name:</b></label>
+    <input type="text" name="name">
+    <p><label><b>EmailId: <input type="email" name="email"></b></label></p>
+    <br>
+    <label><b>Password:</b></label>
+    <input type="password" name="password">
+    <label><b>Confirm your password:</b></label>
+    <input type="password" name="password">
+    <p><b>Enter your gender:</b></p>
+    <label for="female">
+        <input type="radio" value="Female" name="gender" id="female"><b>Female</b>
+    </label> 
+    
+    <label for="male">
+        <input type="radio" value="Male" name="gender" id="male"><b>Male</b>
+    </label> 
+    
+    <label for="others">
+        <input type="radio" value="Others" name="gender" id="others"><b>Others</b>
+    </label> 
+    <br>
+   <b>Enter your corresspondance address:</b><p><textarea name="address" id="addr" rows="10" 
+    columns="10" placeholder="Enter your corresspondance address"></textarea></p>
+    <br>
+   <b>Enter your permannent address:</b><p><textarea name="address" id="addr" rows="10" 
+    columns="10" placeholder="Enter your permanent address"></textarea></p>
+    <br>
+    <b>Enter your domicile state:</b><p><select name="domicile" id="state" >  
+        <option><i>Odisha</i></option>
+        <option><i>West Bengal</i></option>
+        <option><i>Jharkhand</i></option>
+        <option><i>Bihar</i></option>
+        <option><i>Uttar Pradesh</i></option>
+        <option><i>Andhra Pradesh</i></option>
+        <option><i>Telangana</i></option>
+    </select></p>
+    <br>
+    <input type="button" name="submit" value="Sign Up"> 
+    </fieldset>
+</form>
+</body>
+</html>
